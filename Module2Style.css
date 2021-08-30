@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    color: #a61416;
+    background-color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(./tnselogo.PNG);
+    background-attachment: fixed;
+  }
+
+  /* Header and Nav Styling */
+  header {
+    padding: 30px 55px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+    border-right: 5px;
+  }
+
+header a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+  header nav {
+    margin: 7px 10px;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+ }
+/* Header and Nav End*/
+
+
+
+/* Footer Styling */
+footer {
+  background: #000000;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  line-height: 1.5;
+  text-align: right;
+}
+footer img {
+  background-attachment:local;
+  background-position: 100%;
+}
+footer h2 {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer a {
+  color: #ffffff;
+}
+/* End of Footer Styling */
+/* Section Styling */
+  .section-title {
+    font-size: 55px;
+    color: #a61416;
+    margin-bottom: unset;
+    margin-left: 5px;
+    padding: 0 20px 30px 20px;
+    display: inline-block;
+    border-bottom: 3px solid;
+  }
+  
+  .primary-border {
+    border-color: #a61416;
+  }
+  
+  .secondary-border {
+    border-color: #cf2724;
+  }
+
+
+  section {
+    padding: 100px;
+    display: block;
+
+  }
+  
+ 
+  .section-content img {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    align-content: flex-start;
+    margin: 0px auto;
+  }
+  section p {
+    font-style: oblique;
+    font-display: center;
+    border: solid;
+    display: grid;
+    text-align: left;
+    text-shadow: 0px 0px 7px rgb(0, 0, 0);
+    text-decoration: black;
+  }
+
+  .my-works a {
+    background-image: url('./assets/images/runbuddysc.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: center;
+    font-size: larger;
+  }
+
+  .about-me .my-works .my-skills .my-experience .my-contact {
+    width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+
+  .section-content {
+    margin-top: 55px;
+    justify-content: center;
+  }
+/*End of Section Styling*/
+/*Media Quieries*/
+  @media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2 {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .section-title {
+      width: 80%;
+    }
+    
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .section-title {
+      width: 95%;
+    }
+    .about-me {
+      text-align: center;
+    }
+    .my-skills {
+      text-align: center;
+    }
+    .my-experience {
+      text-align: center;
+    }
+    .my-works {
+      text-align: center;
+    }
+    .my-contact {
+      text-align: center;
+    }
+  }
+  
