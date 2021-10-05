@@ -131,6 +131,16 @@ footer a {
     text-decoration: black;
   }
 
+  /* .my-works a {
+    background-image: url('./assets/images/runbuddysc.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: center;
+    font-size: larger;
+  }
   .my-works a {
     background-image: url('./assets/images/runbuddysc.png');
     background-size: cover;
@@ -141,6 +151,17 @@ footer a {
     justify-content: center;
     font-size: larger;
   }
+
+  .my-work2s a {
+    background-image: url('./assets/images/snkk.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: center;
+    font-size: larger;
+  } */
 
   .about-me .my-works .my-skills .my-experience .my-contact {
     width: 100%;
